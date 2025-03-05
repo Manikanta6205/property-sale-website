@@ -1,0 +1,191 @@
+/* Modern Real Estate Theme */
+:root {
+	--primary-color: #2c3e50;
+	--secondary-color: #3498db;
+	--accent-color: #e74c3c;
+	--text-color: #333;
+	--light-bg: #f8f9fa;
+	--white: #ffffff;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: var(--light-bg);
+	font-family: 'Segoe UI', Arial, sans-serif;
+	color: var(--text-color);
+	line-height: 1.6;
+}
+
+#wrapper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: var(--white);
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+#header {
+	width: 100%;
+	height: auto;
+	background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+	padding: 20px 0;
+}
+
+#left {
+	float: left;
+	width: 220px;
+	margin:10px 0 0 10px;
+	padding:5px;
+	}
+#content {
+	padding: 30px;
+	background: var(--white);
+}
+
+.clear{clear:both; height:0px;}
+
+#footer
+{
+	background: var(--primary-color);
+	color: var(--white);
+	padding: 30px 0;
+	text-align: center;
+}
+h2 {
+	font-size: 1.8em;
+	color: var(--primary-color);
+	margin-bottom: 20px;
+}
+
+h3{
+	font-size: 1.4em;
+	color: var(--secondary-color);
+	margin-bottom: 15px;
+}
+h4 {
+	font-size: 12px;
+	color:#be4204;
+	display:inline;
+	padding-left:35px;
+
+	
+}
+
+p, ol, ul {
+	line-height: 22px;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+ul li { width:220px;
+	padding: 2px 0 5px 0;
+	border-bottom:1px dotted #444444;;
+}
+
+ul li.first {
+	background: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	border: none;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: var(--white);
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+h1 a { color:#ff0000;
+	text-decoration:none;
+	}
+h1 a:hover { color:#ffffff;
+	text-decoration:none;
+}
+
+#menu {
+	background: var(--white);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	padding: 15px 0;
+}
+#rc1
+{width:10px; height:50px; background-image:url(images/rc1.png); background-repeat:no-repeat; float:left;}
+#bg
+{ width:870px; height:50px; background-image:url(images/linksbg.png); background-repeat:repeat-x; float:left; padding-left:30px; }
+#rc2
+{width:10px; height:50px; background-image:url(images/rc2.png); background-repeat:no-repeat; float:left;}
+
+.toplinks {
+	color: var(--primary-color);
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	padding: 10px 20px;
+	transition: all 0.3s ease;
+}
+
+.toplinks:hover {
+	color: var(--secondary-color);
+	background: rgba(52, 152, 219, 0.1);
+	border-radius: 4px;
+}
+
+a {
+	color: #9B9A64;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#FF6600;
+}
+
+/* Card Style for Property Listings */
+.property-card {
+	background: var(--white);
+	border-radius: 8px;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+	overflow: hidden;
+	transition: transform 0.3s ease;
+}
+
+.property-card:hover {
+	transform: translateY(-5px);
+}
+
+/* Modern Form Styles */
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin-bottom: 15px;
+	font-size: 14px;
+}
+
+.btn-primary {
+	background: var(--secondary-color);
+	color: var(--white);
+	padding: 12px 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+	background: var(--primary-color);
+}
